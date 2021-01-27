@@ -1,0 +1,1 @@
+package ru.ystu.labs_store.service.history;import ru.ystu.labs_store.model.Cart;import ru.ystu.labs_store.model.History;import java.util.List;public interface HistoryService {	List<History> getHistoryList(String login);	List<History> addProductListToArchive(List<Cart> productList, String login);}

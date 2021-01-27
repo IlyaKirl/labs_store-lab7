@@ -1,0 +1,1 @@
+package ru.ystu.labs_store.repository;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;import ru.ystu.labs_store.model.Cart;import ru.ystu.labs_store.model.History;@Repositorypublic interface HistoryRepository extends JpaRepository<History, Integer> {}
